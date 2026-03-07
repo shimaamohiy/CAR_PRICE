@@ -98,7 +98,7 @@ CAR_PRICE_PREDICTOR
 ├── CAR_PRICE.ipynb
 ├── train_data.csv
 ├── test_data.csv
-├── images
+├── imgs
 └── README.md
 ```
 
