@@ -1,23 +1,116 @@
-# CAR_PRICE
-This project focuses on predicting car prices using machine learning techniques based on a dataset containing approximately 14,912 records of car specifications.
+# Car Price Prediction 🚗
 
-The project includes a full data science pipeline starting from data preprocessing and cleaning, followed by feature engineering, exploratory data analysis, and training multiple regression models to predict car prices.
+A machine learning project that predicts car prices using a dataset of **14,912 vehicle records**. The project implements a complete data science workflow including data preprocessing, exploratory data analysis (EDA), feature engineering, and training multiple regression models.
 
-Key steps in the project include:
+---
 
-* Data Cleaning: Handling missing values, fixing encoding issues, filtering invalid fuel types, and removing outliers.
-* Feature Engineering: Creating new features such as car age and processing numerical attributes like mileage, engine volume, and cylinders.
-* Data Transformation: Applying one-hot encoding for categorical variables and label encoding for manufacturer and model features.
-* Data Scaling: Standardizing numerical features using StandardScaler.
-* Exploratory Data Analysis: Visualizing relationships between features and price using scatter plots and box plots.
+# Project Overview
 
-Multiple machine learning models were implemented and evaluated, including:
+The goal of this project is to build predictive models capable of estimating car prices based on various vehicle attributes such as manufacturer, engine specifications, mileage, fuel type, and production year.
 
-* Ridge Regression with Polynomial Features
+The project demonstrates a full **machine learning pipeline**, from raw data processing to model evaluation.
+
+---
+
+# Dataset
+
+The dataset contains **14,912 rows** with multiple features describing cars, including:
+
+* Manufacturer
+* Model
+* Production Year
+* Engine Volume
+* Cylinders
+* Mileage
+* Fuel Type
+* Transmission
+* Drive Wheels
+* Price
+
+---
+
+# Data Preprocessing
+
+Several preprocessing steps were applied to prepare the dataset for modeling:
+
+* Handling missing values
+* Cleaning mileage values
+* Converting engine volume to numeric format
+* Removing outliers
+* Fixing inconsistent categorical values
+
+---
+
+# Feature Engineering
+
+New features were created to improve model performance:
+
+* **Car Age** = Current Year – Production Year
+* Processed **engine volume**
+* Cleaned **mileage values**
+
+---
+
+# Exploratory Data Analysis (EDA)
+
+Visual analysis was performed to understand relationships between features and car prices.
+
+# Machine Learning Models
+
+Several regression models were trained and evaluated:
+
+* Ridge Regression (with Polynomial Features)
 * K-Nearest Neighbors (KNN)
 * Random Forest Regressor
 * XGBoost Regressor
 
-Model performance was evaluated using RMSE and R² metrics, and comparisons were conducted to determine the most effective model for predicting car prices.
+---
 
-This project demonstrates practical skills in data preprocessing, feature engineering, machine learning model development, and performance evaluation using Python libraries such as Pandas, NumPy, Scikit-learn, XGBoost, Seaborn, and Matplotlib.
+# Model Evaluation
+
+Models were evaluated using:
+
+* **RMSE (Root Mean Squared Error)**
+* **R² Score**
+
+The comparison helped determine which algorithm provides the best predictions for car prices.
+
+---
+
+# Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+# Project Structure
+
+```
+CAR_PRICE_PREDICTOR
+│
+├── CAR_PRICE.ipynb
+├── train_data.csv
+├── test_data.csv
+├── images
+└── README.md
+```
+
+---
+
+# Key Skills Demonstrated
+
+* Data Cleaning & Preprocessing
+* Feature Engineering
+* Exploratory Data Analysis
+* Machine Learning Model Training
+* Model Evaluation & Comparison
+
+---
+
