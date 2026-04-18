@@ -1,4 +1,4 @@
-# Car Price Prediction 🚗
+# Car Price Prediction 
 
 A machine learning project that predicts car prices using a dataset of **14,912 vehicle records**. The project implements a complete data science workflow including data preprocessing, exploratory data analysis (EDA), feature engineering, and training multiple regression models.
 
